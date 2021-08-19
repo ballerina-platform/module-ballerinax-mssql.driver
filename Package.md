@@ -5,7 +5,7 @@ This Package bundles the latest MSSQL driver so that mssql connector can be used
 ## Compatibility
 
 Ballerina Language Version   **Swan Lake Beta 2**  
-MSSQL Driver Version         **9.4.0**
+MSSQL Driver Version         **9.4.0.jre11**
 
 ## Usage
 
