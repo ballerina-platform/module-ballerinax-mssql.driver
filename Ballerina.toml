@@ -1,9 +1,9 @@
 [package]
 org="ballerinax"
-name="mysql.driver"
+name="mssql.driver"
 version="1.0.0"
 authors=["Ballerina"]
-keywords=["MSSQL", "Sql Server"]
+keywords=["MSSQL", "SQL Server"]
 repository="https://github.com/ballerina-platform/module-ballerinax-mssql.driver"
 license=["Apache-2.0"]
 
