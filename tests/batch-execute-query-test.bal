@@ -103,7 +103,8 @@ function batchInsertIntoExactNumericTable1() returns error? {
 }
 
 @test:Config {
-    groups: ["batch-execute"]
+    groups: ["batch-execute"],
+    enable: false
 }
 function batchInsertIntoExactNumericTable2() returns error? {
     int rowId = 15;
