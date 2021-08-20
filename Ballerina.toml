@@ -1,0 +1,16 @@
+[package]
+org="ballerinax"
+name="mssql.driver"
+version="1.0.0"
+authors=["Ballerina"]
+keywords=["MSSQL", "SQL Server"]
+repository="https://github.com/ballerina-platform/module-ballerinax-mssql.driver"
+license=["Apache-2.0"]
+
+[[platform.java11.dependency]]
+groupId = "com.microsoft.sqlserver"
+artifactId = "mssql-jdbc"
+version = "9.4.0.jre11"
+
+[build-options]
+observabilityIncluded = true

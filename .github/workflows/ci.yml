@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - 1.0.x
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - 1.0.x
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Ballerina Build
+        uses: ballerina-platform/ballerina-action/@slalpha5
+        with:
+          args:
+            build -c --skip-tests
+
