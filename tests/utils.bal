@@ -26,7 +26,7 @@ function getMssqlClient(string? database = ()) returns jdbc:Client|error {
     if database is () {
         dbClient = check new (url, user, password);
     } else {
-        dbClient = check new (url + "/" + database, user, password);
+        dbClient = check new (url + "databaseName=" + database, user, password);
     }
     return dbClient;
 }
