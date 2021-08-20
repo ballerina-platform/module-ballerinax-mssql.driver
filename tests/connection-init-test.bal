@@ -69,3 +69,4 @@ function testWithClosedClient1() returns error? {
         test:assertFail("Error expected");
     }
 }
+

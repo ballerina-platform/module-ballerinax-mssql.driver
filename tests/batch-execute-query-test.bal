@@ -185,3 +185,4 @@ isolated function validateBatchExecutionResult(sql:ExecutionResult[] results, in
         i = i + 1;
     }
 }
+

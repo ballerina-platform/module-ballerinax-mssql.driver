@@ -414,3 +414,4 @@ function testMultipleSelectProcedureCall() returns error? {
     check result.close();
     check dbClient.close();
 }
+

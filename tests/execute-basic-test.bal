@@ -323,3 +323,4 @@ function testDeleteStringData() returns error? {
 
     check dbClient.close();
 }
+

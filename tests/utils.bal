@@ -69,3 +69,4 @@ returns sql:ProcedureCallResult | error {
     check dbClient.close();
     return result;
 }
+

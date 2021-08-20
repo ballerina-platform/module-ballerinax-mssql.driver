@@ -366,3 +366,4 @@ isolated function validateDateTimeTableResult(record{}? returnData) {
         test:assertEquals(returnData["time_type"], "09:46:22");    
     } 
 }
+
