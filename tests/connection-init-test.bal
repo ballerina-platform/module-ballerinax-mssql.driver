@@ -17,15 +17,9 @@ import ballerina/sql;
 import ballerinax/java.jdbc;
 import ballerina/test;
 
-string connectDB = "CONNECT_DB";
-
-@test:BeforeGroups {
-    value: ["connection-init"]
-}
-function initConnectionTests() returns error? {
-    _ = check executeQueryMssqlClient(`DROP DATABASE IF EXISTS CONNECT_DB`);
-    _ = check executeQueryMssqlClient(`CREATE DATABASE CONNECT_DB`);
-}
+string url = "jdbc:sqlserver://localhost:1433;";
+string user = "sa";
+string password = "Test123#";
 
 @test:Config {
     groups: ["connection", "connection-init"]
