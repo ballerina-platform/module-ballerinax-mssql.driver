@@ -1,6 +1,6 @@
 ## Package overview
 
-This Package bundles the latest MSSQL driver so that mssql connector can be used in ballerina projects easily.
+This Package bundles the latest MSSQL driver so that the mssql connector can be used in ballerina projects easily.
 
 ## Compatibility
 
@@ -9,7 +9,7 @@ MSSQL Driver Version         **9.4.0.jre11**
 
 ## Usage
 
-To add the MySQL driver dependency the project simply import the module as below,
+To add the MSSQL driver dependency the project simply import the module as below,
 
 ```ballerina
 import ballerina/sql;
