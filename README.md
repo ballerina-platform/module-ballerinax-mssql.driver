@@ -17,11 +17,11 @@ This Package bundles the latest MSSQL driver so that the mssql connector can be 
 
       > **Note:** Set the JAVA_HOME environment variable to the path name of the directory into which you installed JDK.
 
-2. Download and install [Ballerina SL Beta 1](https://ballerina.io/).
+2. Download and install [Ballerina SL Beta 3](https://ballerina.io/).
 
 ## Building the Source
 
-Execute the commands below to build from the source after installing Ballerina Swan Lake Beta 1 version.
+Execute the commands below to build from the source after installing Ballerina Swan Lake Beta 3 version.
 
 1. To build the library:
  ```shell script
