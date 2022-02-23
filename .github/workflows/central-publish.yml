@@ -15,7 +15,7 @@ on:
 jobs:
   publish-release:
     runs-on: ubuntu-latest
-    #if: github.repository_owner == 'ballerina-platform'
+    if: github.repository_owner == 'ballerina-platform'
     steps:
       - uses: actions/checkout@v2
 
@@ -24,12 +24,6 @@ jobs:
         with:
           args:
             build -c --skip-tests
-
-      - name: Ballerina Pack
-        uses: ballerina-platform/ballerina-action/@slbeta3
-        with:
-          args:
-            pack
 
       - name: Ballerina Central Push
         if: ${{ github.event.inputs.environment == 'CENTRAL' }}
