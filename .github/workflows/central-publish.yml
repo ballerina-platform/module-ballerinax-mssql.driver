@@ -25,12 +25,6 @@ jobs:
           args:
             build -c --skip-tests
 
-      - name: Ballerina Pack
-        uses: ballerina-platform/ballerina-action/@slbeta3
-        with:
-          args:
-            pack
-
       - name: Ballerina Central Push
         if: ${{ github.event.inputs.environment == 'CENTRAL' }}
         uses: ballerina-platform/ballerina-action/@slbeta3
