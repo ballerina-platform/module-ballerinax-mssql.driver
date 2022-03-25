@@ -24,7 +24,7 @@ jobs:
         with:
           args:
             pack
-            
+
       - name: Ballerina Central Push
         if: ${{ github.event.inputs.environment == 'CENTRAL' }}
         uses: ballerina-platform/ballerina-action/@2201.0.0
