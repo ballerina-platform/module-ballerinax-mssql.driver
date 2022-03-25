@@ -6,8 +6,8 @@ The MSSQL Driver library is one of the external library packages of the <a targe
 
 This Package bundles the latest MSSQL driver so that the mssql connector can be used in ballerina projects easily.
 
-# Building from the Source
-## Setting Up the Prerequisites
+# Build from the source
+## Set up the prerequisites
 
 1. Download and install Java SE Development Kit (JDK) version 11 (from one of the following locations).
 
@@ -17,9 +17,9 @@ This Package bundles the latest MSSQL driver so that the mssql connector can be 
 
       > **Note:** Set the JAVA_HOME environment variable to the path name of the directory into which you installed JDK.
 
-2. Download and install [Ballerina SL Beta 3](https://ballerina.io/).
+2. Download and install [Ballerina 2201.0.0](https://ballerina.io/).
 
-## Building the Source
+## Build the source
 
 Execute the commands below to build from the source after installing Ballerina Swan Lake Beta 3 version.
 
@@ -32,14 +32,14 @@ Execute the commands below to build from the source after installing Ballerina S
  ```shell script
      bal build --skip-tests
  ```
-# Contributing to Ballerina
+# Contribute to ballerina
 As an open source project, Ballerina welcomes contributions from the community.
 
 For more information, go to the [contribution guidelines](https://github.com/ballerina-platform/ballerina-lang/blob/main/CONTRIBUTING.md).
 
-# Code of Conduct
-All contributors are encouraged to read the [Ballerina Code of Conduct](https://ballerina.io/code-of-conduct).
+# Code of conduct
+All contributors are encouraged to read the [Ballerina code of conduct](https://ballerina.io/code-of-conduct).
 
-# Useful Links
+# Useful links
 * Chat live with us via our [Slack channel](https://ballerina.io/community/slack/).
 * Post all technical questions on Stack Overflow with the [#ballerina](https://stackoverflow.com/questions/tagged/ballerina) tag.

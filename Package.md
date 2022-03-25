@@ -6,8 +6,8 @@ This Package bundles the latest MSSQL driver so that the mssql connector can be 
 
 | | Version |
 |:---|:---:|
-|Ballerina Language | **Swan Lake Beta 3** |
-|MSSQL Driver | **9.4.0.jre11** |
+|Ballerina language | **2201.0.0** |
+|MSSQL driver | **9.4.0.jre11** |
 
 ## Usage
 
@@ -19,6 +19,6 @@ import ballerinax/mssql;
 import ballerinax/mssql.driver as _;
 ```
 
-# Useful Links
+# Useful links
 * Chat live with us via our [Slack channel](https://ballerina.io/community/slack/).
 * Post all technical questions on Stack Overflow with the [#ballerina](https://stackoverflow.com/questions/tagged/ballerina) tag.
