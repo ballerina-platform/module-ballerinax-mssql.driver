@@ -1,8 +1,7 @@
 Ballerina MSSQL Driver Library
 ===================
 
-The MSSQL Driver library is one of the external library packages of the <a target="_blank" href="https://ballerina.io
-/"> Ballerina</a> language.
+The MSSQL Driver library is one of the external library packages of the [Ballerina](https://ballerina.io) language.
 
 This Package bundles the latest MSSQL driver so that the mssql connector can be used in ballerina projects easily.
 
@@ -21,17 +20,11 @@ This Package bundles the latest MSSQL driver so that the mssql connector can be 
 
 ## Build the source
 
-Execute the commands below to build from the source after installing Ballerina Swan Lake Beta 3 version.
+Execute the command below to build from the source after installing Ballerina version 2201.0.0 to build the library.
+```shell script
+  bal build
+```
 
-1. To build the library:
- ```shell script
-     bal build
- ```
-
-2. To build the module without the tests:
- ```shell script
-     bal build --skip-tests
- ```
 # Contribute to ballerina
 As an open source project, Ballerina welcomes contributions from the community.
 
