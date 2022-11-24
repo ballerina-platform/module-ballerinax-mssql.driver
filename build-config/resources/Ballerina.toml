@@ -1,0 +1,18 @@
+[package]
+org = "ballerinax"
+name = "mssql.driver"
+version = "@toml.version@"
+authors = ["Ballerina"]
+keywords = ["MSSQL", "SQL Server"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-mssql.driver"
+license = ["Apache-2.0"]
+distribution = "2201.0.0"
+
+[[platform.java11.dependency]]
+path = "./lib/mssql-jdbc-@mssql.driver.version@.jar"
+
+[[platform.java11.dependency]]
+groupId = "io.ballerina.stdlib"
+artifactId = "mssql.driver-native"
+version = "@toml.version@"
+path = "../native/build/libs/mssql.driver-native-@project.version@.jar"
