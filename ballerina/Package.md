@@ -6,7 +6,7 @@ This Package bundles the latest MSSQL driver so that the mssql connector can be 
 
 | |     Version     |
 |:---|:---------------:|
-|Ballerina Language |  **2201.3.0**   |
+|Ballerina Language |  **2201.7.0**   |
 |MSSQL Driver | **9.4.0.jre11** |
 
 ## Usage
