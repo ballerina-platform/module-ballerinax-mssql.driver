@@ -6,7 +6,7 @@ authors = ["Ballerina"]
 keywords = ["MSSQL", "SQL Server"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-mssql.driver"
 license = ["Apache-2.0"]
-distribution = "2201.7.0"
+distribution = "2201.8.0"
 
 [platform.java17]
 graalvmCompatible = true
