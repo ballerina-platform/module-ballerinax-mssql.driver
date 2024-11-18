@@ -5,12 +5,12 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.8.0"
+distribution-version = "2201.11.0-20241112-214900-6b80ab87"
 
 [[package]]
 org = "ballerinax"
 name = "mssql.driver"
-version = "1.6.0"
+version = "1.6.1"
 modules = [
 	{org = "ballerinax", packageName = "mssql.driver", moduleName = "mssql.driver"}
 ]
