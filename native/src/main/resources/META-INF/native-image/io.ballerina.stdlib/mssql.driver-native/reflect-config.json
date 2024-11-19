@@ -5,12 +5,12 @@
     "methods": [
       {
         "name": "<init>",
-        "parameterTypes": [ ]
+        "parameterTypes": []
       },
       {
         "name": "setEncrypt",
         "parameterTypes": [
-          "boolean"
+          "java.lang.String"
         ]
       },
       {
@@ -88,12 +88,12 @@
     ]
   },
   {
-    "name":"com.microsoft.sqlserver.jdbc.SQLServerXADataSource",
-    "queryAllPublicMethods":true,
-    "methods":[
+    "name": "com.microsoft.sqlserver.jdbc.SQLServerXADataSource",
+    "queryAllPublicMethods": true,
+    "methods": [
       {
-        "name":"<init>",
-        "parameterTypes":[]
+        "name": "<init>",
+        "parameterTypes": []
       }
     ]
   }
