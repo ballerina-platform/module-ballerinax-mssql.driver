@@ -70,9 +70,13 @@ subprojects {
 
     configurations {
         externalJars
+        jbalTools
     }
 
     dependencies {
+        jbalTools ("org.ballerinalang:jballerina-tools:${ballerinaLangVersion}") {
+            transitive = false
+        }
         externalJars (group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: "${mssqlDriverVersion}") {
             transitive = false
         }
