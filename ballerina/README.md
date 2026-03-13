@@ -11,10 +11,6 @@ The MSSQL driver provides a reliable and high-performance connectivity to Micros
 - Secure communication with TLS and authentication
 - GraalVM compatible for native image builds
 
-## Package overview
-
-This Package bundles the latest MSSQL driver so that the mssql connector can be used in ballerina projects easily.
-
 ## Compatibility
 
 | |     Version     |
