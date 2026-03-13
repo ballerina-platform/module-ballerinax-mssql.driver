@@ -1,3 +1,11 @@
+## Overview
+
+The MSSQL driver provides a reliable and high-performance connectivity to Microsoft SQL Server databases. It enables efficient execution of SQL queries, updates, and other database operations. The driver is designed to provide a seamless experience for interacting with MSSQL, supporting various data types and advanced features of the database.
+
+### Key Features
+
+- High-performance and reliable database connectivity\n- Support for various SQL operations (Query, Execute, Batch)\n- Efficient handling of database connections and resources\n- Support for database-specific data types and features\n- Secure communication with TLS and authentication\n- GraalVM compatible for native image builds
+
 ## Package overview
 
 This Package bundles the latest MSSQL driver so that the mssql connector can be used in ballerina projects easily.
