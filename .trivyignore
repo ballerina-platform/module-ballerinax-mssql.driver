@@ -1,0 +1,8 @@
+# com.microsoft.sqlserver:mssql-jdbc 12.8.2 (mssql-jdbc-12.8.2.jre11.jar)
+# CVE-2025-59250 is fixed in 12.8.2.jre11, which is the version this package uses.
+# This is a false positive caused by version-string comparison: the jar's embedded metadata
+# (pom.properties / Bundle-Version) reports "12.8.2" without the ".jre11" suffix, so Trivy
+# treats it as older than the fixed version "12.8.2.jre11". Moving to 13.x to satisfy the
+# scanner is not an option, as it is a major driver upgrade with breaking changes.
+# Expiry forces re-evaluation against the then-current Trivy DB.
+CVE-2025-59250 exp:2027-01-15
